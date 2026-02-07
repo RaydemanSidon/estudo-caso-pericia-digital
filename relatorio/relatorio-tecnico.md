@@ -26,7 +26,15 @@ SHA256:
 
 ---
 
-## 4. Conclusão
+## 4. Análise de Metadados
+
+Foi realizada análise utilizando o comando `stat` para extração de metadados.
+
+Os registros de tempo (atime, mtime e ctime) foram avaliados para verificar coerência temporal.
+
+Não foram identificadas inconsistências entre os registros.
+---
+## 5. Conclusão
 
 A integridade da evidência foi preservada mediante geração de hash antes e após cópia.
 
