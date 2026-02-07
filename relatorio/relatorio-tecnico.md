@@ -33,8 +33,20 @@ Foi realizada análise utilizando o comando `stat` para extração de metadados.
 Os registros de tempo (atime, mtime e ctime) foram avaliados para verificar coerência temporal.
 
 Não foram identificadas inconsistências entre os registros.
+
 ---
-## 5. Conclusão
+
+## 5. Análise de Timeline
+
+Foi realizada listagem ordenada por data de modificação utilizando `ls -lt`.
+
+A ordenação dos arquivos permitiu identificar a sequência cronológica de alterações no diretório analisado.
+
+Arquivos modificados próximos ao horário do incidente foram priorizados para análise.
+
+---
+
+## 6. Conclusão
 
 A integridade da evidência foi preservada mediante geração de hash antes e após cópia.
 
