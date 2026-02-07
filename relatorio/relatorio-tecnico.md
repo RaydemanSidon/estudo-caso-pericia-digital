@@ -60,7 +60,22 @@ A técnica permite triagem rápida antes de análises mais aprofundadas.
 
 ---
 
-## 7. Conclusão
+## 7. Cadeia de Custódia
+
+Foi aplicado controle formal de cadeia de custódia conforme checklist documentado.
+
+Todos os procedimentos foram registrados, incluindo:
+
+- Identificação da evidência
+- Geração de hash
+- Registro cronológico
+- Documentação das etapas
+
+Não houve quebra de integridade durante o processo.
+
+---
+
+## 8. Conclusão
 
 A integridade da evidência foi preservada mediante geração de hash antes e após cópia.
 
