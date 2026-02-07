@@ -46,7 +46,21 @@ Arquivos modificados próximos ao horário do incidente foram priorizados para a
 
 ---
 
-## 6. Conclusão
+## 6. Análise de Conteúdo com Strings
+
+Foi executado o comando `strings` para extração de conteúdo legível do arquivo analisado.
+
+Foram identificadas sequências textuais que podem indicar:
+
+- Comunicação de rede
+- Dados sensíveis
+- Possíveis indicadores de comprometimento
+
+A técnica permite triagem rápida antes de análises mais aprofundadas.
+
+---
+
+## 7. Conclusão
 
 A integridade da evidência foi preservada mediante geração de hash antes e após cópia.
 
